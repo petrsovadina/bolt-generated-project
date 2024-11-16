@@ -1,0 +1,19 @@
+{
+  "name": "pumpperfect-backend",
+  "version": "1.0.0",
+  "description": "Backend for PumpPerfect application",
+  "scripts": {
+    "start": "uvicorn app.main:app --reload",
+    "test": "pytest"
+  },
+  "dependencies": {
+    "fastapi": "^0.68.0",
+    "sqlalchemy": "^1.4.23",
+    "pydantic": "^1.8.2",
+    "uvicorn": "^0.15.0",
+    "pandasai": "^0.2.0"
+  },
+  "devDependencies": {
+    "pytest": "^6.2.5"
+  }
+}
